@@ -1,0 +1,35 @@
+1.
+public class Main {
+    public static void main(String[] args) {
+        int M = 15; // Replace with your desired number
+
+        if (M % 3 == 0 && M % 5 == 0) {
+            System.out.println("Good Number");
+        }
+    }
+}
+
+2.
+public class Main {
+    public static void main(String[] args) {
+        int M = 15; // Replace with your desired number
+
+        if (M % 3 == 0 && M % 5 != 0) {
+            System.out.println("Bad Number");
+        }
+    }
+}
+3.
+public class Main {
+    public static void main(String[] args) {
+        int number = 15; // Example number to check
+
+        if (number % 5 == 0 && number % 3 != 0) {
+            System.out.println("Poor Number");
+        }
+    }
+}
+4.
+if (!condition1 && !condition2 && !condition3) {
+    System.out.println("-1");
+}
